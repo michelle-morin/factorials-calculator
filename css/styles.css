@@ -1,3 +1,38 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 #result {
   display: none;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+button {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-image: radial-gradient(#f5f5f5, #50cdd1, #05686b);
+  color: #111111;
+}
+
+button {
+  background-color: #05686b;
+  color: #f5f5f5;
+  font-size: 24px;
+}
+
+button:hover {
+  background-color: #f5f5f5;
+  color: #05686b;
+  border: 2px solid #05686b;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+label {
+  font-size: 30px;
 }

@@ -9,7 +9,7 @@ $(document).ready(function() {
     $("#result").show();
 
     var number = parseInt($("input#number").val());
-    
+
     var total = 1;
     for (var index = 1; index <= number; index += 1) {
       total = total * index;
